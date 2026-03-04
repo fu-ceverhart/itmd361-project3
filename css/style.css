@@ -99,7 +99,7 @@ img {
   border: #333 2px solid;
   border-radius: .25em;
   clear: both;
-  /* float: left; */ /* Global img css is breaking the slider */
+  float: left; /* Global img css is breaking the slider */
   margin: 0 0 1em 1.5em;
   max-width: 250px; /* Global img css is breaking the slider */
   }
@@ -278,7 +278,8 @@ p {
 }
 
 #slider img {
-  display: block;
+  display: block !important;
+  float: none !important;
   height: 300px;
   margin: 20px auto;
   object-fit: cover;
