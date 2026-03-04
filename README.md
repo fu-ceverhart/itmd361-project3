@@ -1,0 +1,29 @@
+# itmd361-project1
+# Project 1 - HTML Portfolio
+
+## Project Overview
+This project consists of creating three HTML pages, each containing one desktop-sized, page-scroll worth of content. One page is my professional resume, while the other two pages explore themes of my choice. The project focuses on pure HTML coding, without any CSS or external frameworks, emphasizing semantic structure and proper HTML validation.
+
+## Deliverables
+
+## Requirements
+### Project 1 Requirements
+- [ ] No CSS: HTML only, no inline styles, spacing, centering, colors, italics, `<br>` tags, or tables for layout
+- [ ] Two spaces per child element for indentation
+- [ ] Bulleted list at the top of each page linking to all three pages
+- [ ] Include at least three images and one other media type (audio or video)
+- [ ] Use relative links for internal files (e.g., `images/picture.jpg`), not full URLs
+- [ ] Each HTML page must pass W3C validation
+- [ ] Minimum 10 commits in GitHub with meaningful messages
+- [ ] Repository contains only files and commits relevant to this project; each website should have its own repository
+### Project 2 Requirements
+- [ ]  One valid, error-free CSS file with your original code; and one file containing the CSS reset code you used. Both linked from the head of all three HTML files
+- [ ]  Apply at least five of the same style elements to each of your pages. Example removing the list-style from navigation on all three pages with a single CSS deceleration.
+- [ ]  Apply at least five different style elements to each of your pages.
+- [ ]  Centered horizontal-navigation. At the top of and identical on every page.
+- [ ]  Use one imported font style and one browser native font style.
+- [ ]  Six screen capture images of successful validation. One HTML and one CSS validation for each website page. Use the live link to validate. (-50% if it doesn't validate)
+- [ ]  Your HTML and CSS files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
+- [ ]  You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
+- [ ]  Create at least one fluid layout page using relative units (em, rem, vm, %) and one fixed width layout page.
+- [ ]  A subjective grade will be applied to websites that are not creative and just apply the minimum required style.
