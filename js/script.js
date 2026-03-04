@@ -17,3 +17,11 @@ function goTo(lat, lng) {
   map.setCenter({ lat, lng });
   map.setZoom(12);
 }
+
+function zoomIn() {
+  map.setZoom(map.getZoom() + 1);
+}
+
+function zoomOut() {
+  map.setZoom(map.getZoom() - 1);
+}
