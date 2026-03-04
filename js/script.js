@@ -25,3 +25,21 @@ function zoomIn() {
 function zoomOut() {
   map.setZoom(map.getZoom() - 1);
 }
+
+const images = [
+  "images/brock.jpg",
+  "images/winston.jpg",
+  "images/winston_bella.jpg"
+];
+
+let currentIndex = 0;
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % images.length;
+  document.getElementById("slide").src = images[currentIndex];
+}
+
+function prevSlide() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  document.getElementById("slide").src = images[currentIndex];
+}
