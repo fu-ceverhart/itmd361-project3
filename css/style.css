@@ -271,3 +271,20 @@ p {
     font-size: 2.5em;
   }
 }
+
+#slider {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#slider img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+
+#slider-controls {
+  margin-top: 10px;
+}
