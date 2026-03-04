@@ -213,7 +213,12 @@ p {
   font-style: italic;
 }
 
+#container {
+  width: 80%;
+  margin: 2em auto;
+}
+
 #map {
   height: 500px;
-  width: 75%;
+  width: 100%;
 }
