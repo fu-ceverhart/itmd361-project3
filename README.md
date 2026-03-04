@@ -27,3 +27,5 @@ This project consists of creating three HTML pages, each containing one desktop-
 - [ ]  You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
 - [ ]  Create at least one fluid layout page using relative units (em, rem, vm, %) and one fixed width layout page.
 - [ ]  A subjective grade will be applied to websites that are not creative and just apply the minimum required style.
+### Project 3 Requirements
+ - [x] San-serif is a font family. Use an actual font as your backup font in the font stack. 
