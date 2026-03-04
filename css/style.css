@@ -212,3 +212,8 @@ p {
   margin-left: 1em;
   font-style: italic;
 }
+
+#map {
+  height: 500px;
+  width: 75%;
+}
