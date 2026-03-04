@@ -1,0 +1,19 @@
+const HOME = { lat: 34.8526, lng: -82.3940 };
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 12,
+    center: HOME,
+  });
+}
+
+function goHome() {
+  map.setCenter(HOME);
+  map.setZoom(12);
+}
+
+function goTo(lat, lng) {
+  map.setCenter({ lat, lng });
+  map.setZoom(12);
+}

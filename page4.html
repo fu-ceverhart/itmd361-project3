@@ -5,7 +5,7 @@
   <title>Google Maps</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap&v=weekly" defer></script>
+  </head>
 <body>
   <nav>
     <ul>
@@ -24,28 +24,8 @@
   </div>
 
   <div id="map"></div>
-
-  <script>
-    const HOME = { lat: 34.8526, lng: -82.3940 };
-    let map;
-
-    function initMap() {
-      map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: HOME,
-      });
-    }
-
-    function goHome() {
-      map.setCenter(HOME);
-      map.setZoom(12);
-    }
-
-    function goTo(lat, lng) {
-      map.setCenter({ lat, lng });
-      map.setZoom(12);
-    }
-  </script>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap&v=weekly"></script>
   </body>
 </body>
 </html>
