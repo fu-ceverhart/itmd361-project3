@@ -33,4 +33,4 @@ This project consists of creating three HTML pages, each containing one desktop-
 - [x]  Add a fourth html page for your Google Maps api. The map should have 3 features added beyond the base code.
 - [x]  Add one valid, error-free JavaScript file with your original code; linked from the head of all four HTML files
 - [x]  Make sure your JavaScript throws no uncaught errors and is loaded unobtrusively. You can check for errors using the console on your browser inspector
-- [ ]  For the final turn-in, add a JavaScript picture slider to one of your pages.
+- [x]  For the final turn-in, add a JavaScript picture slider to one of your pages.
