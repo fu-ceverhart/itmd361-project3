@@ -29,7 +29,7 @@ This project consists of creating three HTML pages, each containing one desktop-
 - [x]  A subjective grade will be applied to websites that are not creative and just apply the minimum required style.
 ### Project 3 Requirements
 - [x] San-serif is a font family. Use an actual font as your backup font in the font stack. 
-- [ ]  Pick one page to make mobile friendly. This means adding 2 CSS media queries with at least 5 CSS style changes under each. Use the min-width media queries.
+- [x]  Pick one page to make mobile friendly. This means adding 2 CSS media queries with at least 5 CSS style changes under each. Use the min-width media queries.
 - [x]  Add a fourth html page for your Google Maps api. The map should have 3 features added beyond the base code.
 - [x]  Add one valid, error-free JavaScript file with your original code; linked from the head of all four HTML files
 - [x]  Make sure your JavaScript throws no uncaught errors and is loaded unobtrusively. You can check for errors using the console on your browser inspector
